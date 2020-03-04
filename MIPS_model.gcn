@@ -1,0 +1,35 @@
+# ############################################################################
+# (c) Arizona State University (2020                                         #
+#                                                                            #
+# Authors: Ellen Green, Daniel Silverman and Sam Kuhn                        #
+# ############################################################################
+# Dynamic choice model
+# ############################################################################
+
+#Define options (LaTeX and C++ output)
+options {
+	output LaTeX = true; 
+	output R Rcpp = true;
+	verbose = true;
+	warning = true;
+	R Jacobian = true;
+	output logfile = true;
+};
+
+#TODO
+tryreduce {
+  W_p[], V_p[]
+};
+
+
+
+#Patient benefit and Cost of Effort Assumptions
+#Assume number of patients p = 3 
+#Maximum time allocation tau_p <= 75
+block PATIENT {
+	
+	definitions {
+		
+		
+
+};
